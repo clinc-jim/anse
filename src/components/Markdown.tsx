@@ -1,4 +1,4 @@
-import { createSignal, createEffect, Show, on } from 'solid-js'
+import { createEffect, createSignal, on, Show } from 'solid-js'
 import { makeEventListener } from '@solid-primitives/event-listener'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
