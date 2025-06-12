@@ -67,7 +67,7 @@ export const handleChatCompletion = async(payload: HandlerPayload, signal?: Abor
         maxOutputTokens: payload.globalSettings.maxOutputTokens as number,
         topP: payload.globalSettings.topP as number,
         topK: payload.globalSettings.topK as number,
-      }
+      },
     },
     signal,
     model: payload.globalSettings.model as string,
