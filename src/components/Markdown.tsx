@@ -44,8 +44,8 @@ export default (props: Props) => {
       copy(decodeURIComponent(el.dataset.code!))
     }
     if (el.matches('div > div.code-copy-btn > i')) {
-      setCopiedIndex(parseInt(el.parentElement?.dataset.index!))
-      copy(decodeURIComponent(el.parentElement?.dataset.code!))
+      setCopiedIndex(parseInt(el.parentElement?.dataset.index))
+      copy(decodeURIComponent(el.parentElement?.dataset.code))
     }
   })
 
