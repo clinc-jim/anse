@@ -1,6 +1,6 @@
 {
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": true //"explicit"
   },
   "editor.formatOnSave": false,
   "eslint.validate": [
@@ -13,5 +13,6 @@
   "i18n-ally.localesPaths": [
     "src/locale",
     "src/locale/lang"
-  ]
+  ],
+  "prettier.enable": false
 }
