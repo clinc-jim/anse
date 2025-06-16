@@ -6,7 +6,9 @@
       "outputLocation": "dist",
       "appBuildCommand": "pnpm run build",
       "run": "pnpm run dev",
-      "appDevserverUrl": "http://localhost:3000"
+      "appDevserverUrl": "http://localhost:3000",
+      "appName": "anse",
+      "resourceGroup": "anse-rg"
     }
   }
 }
